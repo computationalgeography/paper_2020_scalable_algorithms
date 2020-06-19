@@ -1,0 +1,12 @@
+name: paper_2020_scalable_algorithms
+channels:
+- conda-forge
+- defaults
+dependencies:
+- conan
+- docopt
+- numpy
+- setuptools
+- scipy
+- sphinx
+- tqdm
