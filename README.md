@@ -9,7 +9,7 @@ environmental modelling framework, using asynchronous many-tasks,
 Computers and Geosciences (2020), submitted for review
 
 The most recent LUE source code can be found in LUE's [own
-repository](https://github.com/pcraster/lue).
+repository](https://github.com/computationalgeography/lue).
 
 ![Domain decomposition](domain_decomposition.png)
 
