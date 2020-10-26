@@ -1,0 +1,52 @@
+{
+    "duration": 1363397,
+    "environment": {
+        "nr_workers": 6
+    },
+    "results": [
+        {
+            "shape_in_partitions": [
+                33,
+                33
+            ]
+        },
+        {
+            "shape_in_partitions": [
+                33,
+                33
+            ]
+        },
+        {
+            "shape_in_partitions": [
+                33,
+                33
+            ]
+        }
+    ],
+    "start": "2020-09-11T15:14:43+0200",
+    "task": {
+        "array_shape": [
+            10000,
+            10000
+        ],
+        "partition_shape": [
+            300,
+            300
+        ]
+    },
+    "timings": [
+        {
+            "duration": 465547,
+            "start": "2020-09-11T15:14:45+0200"
+        },
+        {
+            "duration": 449688,
+            "start": "2020-09-11T15:22:33+0200"
+        },
+        {
+            "duration": 441104,
+            "start": "2020-09-11T15:30:05+0200"
+        }
+    ],
+    "unit": "millisecond"
+}

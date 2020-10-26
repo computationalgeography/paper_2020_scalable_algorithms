@@ -1,0 +1,14 @@
+cmake_minimum_required(
+    VERSION 3.15)
+project(paper_2020_scalable_algorithms)
+
+set(LUE_BUILD_DATA_MODEL ON CACHE BOOL "")
+set(LUE_DATA_MODEL_WITH_UTILITIES ON CACHE BOOL "")
+
+set(LUE_BUILD_FRAMEWORK ON CACHE BOOL "")
+set(LUE_FRAMEWORK_WITH_BENCHMARKS ON CACHE BOOL "")
+
+set(LUE_BUILD_HPX ON CACHE BOOL "")
+set(HPX_USE_CMAKE_CXX_STANDARD ON CACHE BOOL "")
+
+add_subdirectory(lue)
