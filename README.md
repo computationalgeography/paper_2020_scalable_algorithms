@@ -68,7 +68,7 @@ in [the LUE documentation](https://lue.computationalgeography.org/doc).
 
 ## Experiments
 After building LUE, a set of command line utilities is available in
-the build directory (`build/bin/`). These accept a set of command line arguments that
+the build directory (`build/bin`). These accept a set of command line arguments that
 determine the size of the problem that will be processed. Scripts have
 been created that manage the execution of the experiments for various
 kinds of experiments (partition shape, strong scaling, weak scaling),
@@ -96,9 +96,10 @@ be found in
 | `lue_case_study_wildfire_benchmark`  | example model   |
 
 The source code of the experiments for the modelling operations can be
-found in `lue/source/framework/algorithm/benchmark/`. The
-code implementing the wildfire model can be found in
-`lue/source/framework/case_study/wildfire`.
+found in
+[lue/source/framework/algorithm/benchmark](lue/source/framework/algorithm/benchmark).
+The code implementing the wildfire model can be found in
+[lue/source/framework/case_study/wildfire](lue/source/framework/case_study/wildfire).
 
 Some outputs of the experiments performed can be found in the output
 directory. For each experiment the output JSON files are stored, as well
