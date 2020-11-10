@@ -88,18 +88,22 @@ importing these results in LUE datasets and generating plots can also
 be found in
 [lue/benchmark/script/algorithm](lue/benchmark/script/algorithm).
 
-| executable | experiment |
-| ---------- | ---------- |
-| `lue_algorithm_sqrt_benchmark`       | local operation |
-| `lue_algorithm_focal_mean_benchmark` | focal operation |
-| `lue_algorithm_zonal_sum_benchmark`  | zonal operation |
-| `lue_case_study_wildfire_benchmark`  | example model   |
+| experiment | executable | main source file |
+| ---------- | ---------- | ---------------- |
+| local operation | `lue_algorithm_sqrt_benchmark`       | [binary_local_operation.hpp](lue/source/framework/algorithm/include/lue/framework/algorithm/binary_local_operation.hpp) |
+| focal operation | `lue_algorithm_focal_mean_benchmark` | [focal_operation.hpp](lue/source/framework/algorithm/include/lue/framework/algorithm/focal_operation.hpp) |
+| zonal operation | `lue_algorithm_zonal_sum_benchmark`  | [zonal_operation.hpp](lue/source/framework/algorithm/include/lue/framework/algorithm/zonal_operation.hpp) |
+| example model   | `lue_case_study_wildfire_benchmark`  | [wildfire_model_base.cpp](lue/source/framework/case_study/wildfire/src/wildfire_model_base.cpp) |
 
 The source code of the experiments for the modelling operations can be
 found in
 [lue/source/framework/algorithm/benchmark](lue/source/framework/algorithm/benchmark).
 The code implementing the wildfire model can be found in
 [lue/source/framework/case_study/wildfire](lue/source/framework/case_study/wildfire).
+The alternative implementation, using the
+[PCRaster](https://pcraster.computationalgeography.org) environmental
+modelling environment can be found in
+[model/wildfire-pcraster.py](model/wildfire-pcraster.py).
 
 Some outputs of the experiments performed can be found in the output
 directory. For each experiment the output JSON files are stored, as well
