@@ -7,7 +7,7 @@ that manuscript.
 - De Jong, K., Panja, D., Van Kreveld, M., Karssenberg, D.,
   An environmental modelling framework based on asynchronous many-tasks:
   scalability and usability,
-  Environmental modelling & Software (2020), submitted for review
+  Environmental modelling & Software (2021), [10.1016/j.envsoft.2021.104998](https://doi.org/10.1016/j.envsoft.2021.104998)
 
 | directory | contents |
 | --------- | -------- |
